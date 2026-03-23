@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build outputs
+frontend/dist/
+smart-contract/artifacts/
+smart-contract/cache/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
